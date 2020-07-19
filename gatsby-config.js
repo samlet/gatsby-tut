@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Title from siteMetadata`,
+    subtitle: `sweet cookie`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
