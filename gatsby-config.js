@@ -8,6 +8,8 @@ module.exports = {
   siteMetadata: {
     title: `Title from siteMetadata`,
     subtitle: `sweet cookie`,
+    description: `A simple description about pandas eating lots...`,
+    author: `samlet`,
   },
   plugins: [
     {
@@ -39,5 +41,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
